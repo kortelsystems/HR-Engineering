@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Water division illustration</title>
+  <desc id="desc">Water treatment illustration with tanks and flowing lines in aqua tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3044" />
+      <stop offset="100%" stop-color="#1f8aa7" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="110" y="505" width="980" height="120" rx="24" fill="#def9ff" opacity="0.16" />
+  <rect x="175" y="240" width="180" height="340" rx="34" fill="#f7feff" opacity="0.94" />
+  <rect x="430" y="190" width="200" height="390" rx="36" fill="#effcff" opacity="0.9" />
+  <rect x="700" y="260" width="160" height="320" rx="32" fill="#ffffff" opacity="0.88" />
+  <path d="M355 360C410 330 460 330 520 360S640 390 700 350S820 300 905 335" fill="none" stroke="#7de7f6" stroke-width="18" stroke-linecap="round" />
+  <path d="M355 430C420 400 470 400 530 430S645 460 705 420S825 370 905 405" fill="none" stroke="#b5f6ff" stroke-width="14" stroke-linecap="round" />
+  <circle cx="430" cy="360" r="22" fill="#7de7f6" />
+  <circle cx="700" cy="350" r="22" fill="#7de7f6" />
+  <text x="78" y="720" fill="#effdff" font-family="Arial, sans-serif" font-size="54" font-weight="700">Water Division</text>
+</svg>

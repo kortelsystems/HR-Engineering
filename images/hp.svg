@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170">
+  <rect width="360" height="170" fill="#ffffff"/>
+  <rect x="126" y="10" width="108" height="150" fill="none" stroke="#002b7f" stroke-width="4"/>
+  <circle cx="180" cy="80" r="38" fill="#ffffff" stroke="#002b7f" stroke-width="4"/>
+  <text x="180" y="90" fill="#d32f2f" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" text-anchor="middle">HP</text>
+  <text x="180" y="36" fill="#d32f2f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle">HINDUSTAN PETROLEUM</text>
+</svg>

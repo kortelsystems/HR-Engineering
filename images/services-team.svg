@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering services illustration</title>
+  <desc id="desc">Team and service desk illustration with technical blue and teal tones.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3d3d" />
+      <stop offset="100%" stop-color="#34a6a0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="120" y="490" width="960" height="140" rx="28" fill="#effffd" opacity="0.15" />
+  <circle cx="300" cy="315" r="72" fill="#f6fffd" opacity="0.9" />
+  <circle cx="600" cy="285" r="86" fill="#f6fffd" opacity="0.92" />
+  <circle cx="900" cy="330" r="74" fill="#f6fffd" opacity="0.9" />
+  <rect x="235" y="395" width="130" height="150" rx="32" fill="#ffffff" opacity="0.88" />
+  <rect x="525" y="385" width="150" height="170" rx="32" fill="#ffffff" opacity="0.9" />
+  <rect x="830" y="405" width="140" height="140" rx="32" fill="#ffffff" opacity="0.88" />
+  <text x="78" y="720" fill="#effffd" font-family="Arial, sans-serif" font-size="54" font-weight="700">Engineering Services</text>
+</svg>

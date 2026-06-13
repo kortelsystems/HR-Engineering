@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170">
+  <rect width="360" height="170" fill="#ffffff"/>
+  <ellipse cx="180" cy="85" rx="120" ry="44" fill="#3d5d8c"/>
+  <text x="180" y="98" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" font-weight="700" text-anchor="middle">Ultratech</text>
+</svg>

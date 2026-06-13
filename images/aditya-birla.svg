@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170">
+  <rect width="360" height="170" fill="#ffffff"/>
+  <circle cx="100" cy="84" r="56" fill="#e53935"/>
+  <path d="M100 30 66 84h68z" fill="#ffd54f"/>
+  <path d="M100 30v108M56 84h88M78 54l44 60M78 114l44-60" stroke="#ffd54f" stroke-width="5"/>
+  <text x="180" y="132" fill="#d32f2f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ADITYA BIRLA GROUP</text>
+</svg>

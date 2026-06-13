@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170">
+  <rect width="360" height="170" fill="#ffffff"/>
+  <path d="M60 90c0-26 20-54 40-60 8 24 8 78-1 102-18-7-39-24-39-42Z" fill="#ff6a2b"/>
+  <path d="M90 78c20 0 40 8 66 20-26 20-46 32-65 30-8-14-10-31-1-50Z" fill="#ff7d2d"/>
+  <text x="210" y="95" fill="#333f48" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" text-anchor="middle">Piramal</text>
+</svg>

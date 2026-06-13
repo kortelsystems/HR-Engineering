@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Instrumentation illustration</title>
+  <desc id="desc">Support equipment and instrumentation illustration with gauges and cabinets.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#13303e" />
+      <stop offset="100%" stop-color="#2f7d96" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="120" y="510" width="960" height="110" rx="24" fill="#dff7ff" opacity="0.15" />
+  <rect x="180" y="240" width="230" height="350" rx="26" fill="#f9fdff" opacity="0.94" />
+  <circle cx="595" cy="320" r="118" fill="#f9fdff" opacity="0.92" />
+  <circle cx="595" cy="320" r="82" fill="none" stroke="#7fe0f8" stroke-width="18" />
+  <path d="M595 320l48-38" stroke="#7fe0f8" stroke-width="14" stroke-linecap="round" />
+  <rect x="780" y="235" width="250" height="340" rx="28" fill="#eefcff" opacity="0.94" />
+  <path d="M410 345H480M710 345H780" stroke="#7fe0f8" stroke-width="18" stroke-linecap="round" />
+  <text x="78" y="720" fill="#effdff" font-family="Arial, sans-serif" font-size="54" font-weight="700">Instrumentation</text>
+</svg>

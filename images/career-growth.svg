@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Career growth illustration</title>
+  <desc id="desc">Career development illustration with upward arrows and construction-style geometry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#381c1c" />
+      <stop offset="100%" stop-color="#c0523a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="100" y="500" width="1000" height="120" rx="24" fill="#ffe8de" opacity="0.16" />
+  <path d="M260 560V400L420 320V250L600 170L780 250V330L940 410V560" fill="none" stroke="#ffd6c7" stroke-width="26" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M600 170l-22 32h44z" fill="#ffd6c7" />
+  <text x="78" y="720" fill="#fff0eb" font-family="Arial, sans-serif" font-size="54" font-weight="700">Career Growth</text>
+</svg>

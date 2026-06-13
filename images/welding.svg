@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Welding illustration</title>
+  <desc id="desc">Industrial welding illustration with sparks and metal seams.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2f140f" />
+      <stop offset="100%" stop-color="#bf5d2e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="100" y="520" width="1000" height="110" rx="24" fill="#ffe7d1" opacity="0.14" />
+  <path d="M225 535L470 290" stroke="#f3f5f7" stroke-width="24" stroke-linecap="round" />
+  <path d="M470 290L760 425" stroke="#d9e0e6" stroke-width="24" stroke-linecap="round" />
+  <path d="M540 330l18-50 28 45 52-14-35 39 35 39-52-14-28 45-18-50-52 14 35-39-35-39z" fill="#ffd46f" />
+  <path d="M610 250l14-32 18 29 34-8-22 26 22 26-34-8-18 29-14-32-34 8 22-26-22-26z" fill="#ffe095" />
+  <text x="78" y="720" fill="#fff3ea" font-family="Arial, sans-serif" font-size="54" font-weight="700">Welding</text>
+</svg>
