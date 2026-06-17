@@ -379,20 +379,29 @@
 			color: var(--muted);
 			line-height: 1.75;
 		}
+.media-thumb {
+    margin-bottom: 18px;
+    border-radius: 18px;
+    overflow: hidden;
+    height: 180px; /* same height for all cards */
+}
 
-		.media-thumb {
-			margin-bottom: 14px;
-			border-radius: 18px;
-			overflow: hidden;
-			border: 1px solid rgba(255, 255, 255, 0.08);
-			background: rgba(255, 255, 255, 0.04);
-		}
+.media-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* fills area like first card */
+    display: block;
+}
 
-		.media-thumb img {
-			width: 100%;
-			height: 170px;
-			object-fit: cover;
-		}
+.industry-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.industry-icon {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
 
 		.carousel {
 			padding: 0 0 18px;
@@ -970,50 +979,80 @@
 		</section>
 
 		<section class="section" id="industries">
-			<div class="container">
-				<div class="section-title reveal">
-					<div>
-						<h2>Industries we serve</h2>
-						<p>We support sectors where process reliability, product consistency, and compliance matter.</p>
-					</div>
-				</div>
-
-				<div class="grid-4">
-					<article class="card industry-card reveal">
-						<div class="media-thumb">
-							<img alt="Chemical plant piping and refinery equipment" src="https://plus.unsplash.com/premium_photo-1754269342814-b3b82f962171?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-						</div>
-						<div class="industry-icon">01</div>
-						<h3>Chemical Plant</h3>
-						<p>Solutions for process handling, recovery, treatment, and thermal operations.</p>
-					</article>
-					<article class="card industry-card reveal">
-						<div class="media-thumb">
-							<img alt="Industrial boiler pipes and gauges" src="https://plus.unsplash.com/premium_photo-1664392017626-010b484507f4?q=80&w=457&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-						</div>
-						<div class="industry-icon">02</div>
-						<h3>Boiler</h3>
-						<p>Robust engineering support for high-temperature systems, utilities, and process packages.</p>
-					</article>
-					<article class="card industry-card reveal">
-						<div class="media-thumb">
-							<img alt="Industrial vessel and storage tanks" src="https://images.unsplash.com/photo-1772376920846-8925e03c3fcf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-						</div>
-						<div class="industry-icon">03</div>
-						<h3>Vessel</h3>
-						<p>Fabricated vessels and controlled process solutions for production environments and regulated operations.</p>
-					</article>
-					<article class="card industry-card reveal">
-						<div class="media-thumb">
-							<img alt="Heavy steel fabrication and metalworking" src="https://plus.unsplash.com/premium_photo-1682147474777-90dc55cdbc67?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-						</div>
-						<div class="industry-icon">04</div>
-						<h3>Heavy Steel Jobs</h3>
-						<p>Systems that support fabrication, lifting, erection, and heavy-duty structural work.</p>
-					</article>
-				</div>
+	<div class="container">
+		<div class="section-title reveal">
+			<div>
+				<h2>Industries We Serve</h2>
+				<p>
+					We deliver engineered process solutions for diverse industries where
+					reliability, efficiency, quality, and compliance are essential.
+				</p>
 			</div>
-		</section>
+		</div>
+
+		<div class="grid-4">
+
+			<!-- Chemical Industry -->
+			<article class="card industry-card reveal">
+				<div class="media-thumb">
+					<img src="images/cemical.jpg"
+						alt="Chemical Industry">
+				</div>
+				<div class="industry-icon">01</div>
+				<h3>Chemical Industry</h3>
+				<p>
+					Process equipment and engineered solutions for chemical manufacturing,
+					reaction systems, solvent recovery, and production operations.
+				</p>
+				<a href="#contact" class="industry-btn">Learn More</a>
+			</article>
+
+			<!-- Pharmaceutical Industry -->
+			<article class="card industry-card reveal">
+				<div class="media-thumb">
+    <img src="images/Pharmaceutical.jpg" alt="Pharmaceutical Industry" class="pharma-img"></div>				
+				<div class="industry-icon">02</div>
+				<h3>Pharmaceutical Industry</h3>
+				<p>
+					High-quality process systems designed to support pharmaceutical
+					production, compliance requirements, and operational efficiency.
+				</p>
+				<a href="#contact" class="industry-btn">Learn More</a>
+			</article>
+
+			<!-- Food Processing Industry -->
+			<article class="card industry-card reveal">
+				<div class="media-thumb">
+					<img src="images/food processing.jpg"
+						alt="Food Processing Industry">
+				</div>
+				<div class="industry-icon">03</div>
+				<h3>Food Processing Industry</h3>
+				<p>
+					Reliable equipment and process solutions for hygienic production,
+					product quality, and efficient food manufacturing operations.
+				</p>
+				<a href="#contact" class="industry-btn">Learn More</a>
+			</article>
+
+			<!-- Heavy Engineering Industry -->
+			<article class="card industry-card reveal">
+				<div class="media-thumb">
+					<img src="images/Heavy Engineering Industry.jpg.jpeg"
+						alt="Heavy Engineering Industry">
+				</div>
+				<div class="industry-icon">04</div>
+				<h3>Heavy Engineering Industry</h3>
+				<p>
+					Robust fabrication, structural systems, and large-scale engineering
+					solutions for demanding industrial applications.
+				</p>
+				<a href="#contact" class="industry-btn">Learn More</a>
+			</article>
+
+		</div>
+	</div>
+</section>
 
 		<section class="section" id="services">
 			<div class="container">
