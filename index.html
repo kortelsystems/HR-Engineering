@@ -4,7 +4,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="HR Engineering - industrial process solutions for wastewater treatment, distillation, evaporation, and herbal extraction plants." />
-	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f7b733'/%3E%3Cpath d='M16 44V20h8.4c5.6 0 9.1 3.6 9.1 9s-3.6 9-9.1 9H24v6h-8zm8-13h.8c2.6 0 4-1.2 4-3s-1.4-3-4-3H24v6zm17 13V20h8v24h-8z' fill='%2307131d'/%3E%3C/svg%3E" />
+    <link rel="icon" type="image/png" href="images/logo.jpg">
 	<title>HR Engineering | Industrial Process Solutions</title>
 	<style>
 		:root {
@@ -44,7 +44,7 @@
 			min-height: 100vh;
 		}
 
-		a {
+ 	a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -76,26 +76,39 @@
 			padding: 18px 0;
 		}
 
-		.brand {
-			display: inline-flex;
-			align-items: center;
-			gap: 14px;
-			font-weight: 800;
-			letter-spacing: 0.08em;
-			text-transform: uppercase;
-		}
+		/* Logo Section */
+/* Logo Section */
+.brand{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    text-decoration:none;
+}
 
-		.brand-mark {
-			width: 46px;
-			height: 46px;
-			border-radius: 15px;
-			display: grid;
-			place-items: center;
-			background: linear-gradient(135deg, var(--accent), #ff8a3d);
-			color: #102133;
-			box-shadow: 0 14px 28px rgba(247, 183, 51, 0.26);
-		}
+.company-logo{
+    width:75px;
+    height:75px;
+    object-fit:contain;
+    background:#ffffff;
+    border-radius:12px;
+    padding:4px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.25);
+    transition:transform 0.3s ease;
+}
 
+.company-logo:hover{
+    transform:scale(1.05);
+}
+
+.brand-text{
+    font-size:32px;
+    font-weight:800;
+    color:#ffffff;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    line-height:1.1;
+	font-family:'Times New Roman', Times, serif;
+}
 		.nav-links {
 			display: flex;
 			align-items: center;
@@ -815,9 +828,9 @@
 	<header class="topbar">
 		<div class="container nav">
 			<a class="brand" href="#home">
-				<span class="brand-mark">HR</span>
-				<span>HR Engineering</span>
-			</a>
+    <img src="images/logo.jpg" alt="HR Engineering Logo" class="company-logo">
+    <span class="brand-text">HR Engineering</span>
+</a>
 			<nav class="nav-links" aria-label="Primary">
 				<a href="#home">Home</a>
 				<a href="#about">About Us</a>
@@ -840,12 +853,9 @@
 			<div class="container hero-grid">
 				<div class="reveal">
 					<span class="eyebrow">Industrial process solutions built for performance</span>
-					<h1>Engineering systems for demanding process industries.</h1>
+					<h1>Engineering Excellence for Process Industries.</h1>
 					<p>
-						HR Engineering designs and delivers dependable process equipment for wastewater treatment,
-						distillation, evaporation, and herbal extraction applications. We combine engineering precision,
-						fabrication expertise, and project execution discipline to support plants that must run efficiently
-						every day.
+					HR Engineering provides design, fabrication, manufacturing, installation, and commissioning services for Chemical, Pharmaceutical, Food Processing, and Industrial Engineering sectors. We deliver customized engineering solutions with quality, reliability, and performance.
 					</p>
 					<div class="hero-actions">
 						<a class="btn btn-primary" href="#contact">Talk to us</a>
