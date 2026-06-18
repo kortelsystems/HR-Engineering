@@ -729,6 +729,47 @@
 			gap: 18px;
 		}
 
+		.contact-map-card {
+			display: grid;
+			gap: 18px;
+		}
+
+		.contact-map-wrap {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 16 / 10;
+			border-radius: 18px;
+			overflow: hidden;
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			background: rgba(255, 255, 255, 0.04);
+		}
+
+		.contact-map-wrap iframe {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;
+		}
+
+		.contact-map-actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 12px;
+		}
+
+		.contact-map-actions a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 12px 16px;
+			border-radius: 999px;
+			border: 1px solid rgba(255, 255, 255, 0.12);
+			background: rgba(255, 255, 255, 0.04);
+			color: var(--text);
+			font-weight: 700;
+		}
+
 		.contact-item {
 			display: grid;
 			gap: 6px;
@@ -1384,14 +1425,21 @@
 						</div>
 					</div>
 
-					<div class="card contact-card reveal">
+					<div class="card contact-card contact-map-card reveal">
 						<div class="contact-item">
-							<div class="contact-label">Corporate Address</div>
-							<div>HR Engineering, Office No. 404/405, Sai Millenium, Pune, Maharashtra, India</div>
+							<div class="contact-label">HR Engineering Manufacturing Plant</div>
+							<div>Plot no 36 Devam eco industrial park, Vibhag 1, Ponsra, Jalalpor road, Navsari, 396436</div>
 						</div>
-						<div class="contact-item">
-							<div class="contact-label">Manufacturing Plant</div>
-							<div>Alandi Bypass Road, Gat No. 138, Pune, Maharashtra, India</div>
+						<div class="contact-map-wrap" aria-label="HR Engineering Manufacturing Plant map">
+							<iframe
+								title="HR Engineering Manufacturing Plant"
+								src="https://www.google.com/maps?q=Plot%20no%2036%20Devam%20eco%20industrial%20park%2C%20Vibhag%201%2C%20Ponsra%2C%20Jalalpor%20road%2C%20Navsari%2C%20396436&output=embed"
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								allowfullscreen>
+							</iframe>
+						</div>
+						<div class="contact-map-actions">
 						</div>
 					</div>
 				</div>
