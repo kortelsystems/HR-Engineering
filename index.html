@@ -797,11 +797,45 @@
 		}
 
 		.footer-inner {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			gap: 12px;
-			align-items: center;
+			display: grid;
+			grid-template-columns: 1.3fr 0.9fr 0.9fr;
+			gap: 20px;
+			align-items: start;
+		}
+
+		.footer-block {
+			display: grid;
+			gap: 10px;
+		}
+
+		.footer-title {
+			color: var(--text);
+			font-weight: 800;
+			letter-spacing: 0.02em;
+		}
+
+		.footer-links {
+			display: grid;
+			gap: 10px;
+		}
+
+		.footer-links a {
+			color: var(--muted);
+			transition: color 0.2s ease;
+		}
+
+		.footer-links a:hover {
+			color: var(--text);
+		}
+
+		.footer-note {
+			font-size: 0.96rem;
+		}
+
+		@media (max-width: 900px) {
+			.footer-inner {
+				grid-template-columns: 1fr;
+			}
 		}
 
 		.scroll-top {
@@ -1448,14 +1482,39 @@
 
 	<footer class="footer">
 		<div class="container footer-inner">
-			<div>© 2026 HR Engineering. All rights reserved.</div>
-			<div>Designed &amp; developed for an industrial engineering brand.</div>
+			<div class="footer-block">
+				<div class="footer-title">Kortel Systems</div>
+				<div class="footer-note">Design and Developed by Kortel Systems</div>
+				<div class="footer-note">© <span id="current-year"></span> HR Engineering. All rights reserved.</div>
+			</div>
+			<div class="footer-block">
+				<div class="footer-title">Quick Links</div>
+				<div class="footer-links">
+					<a href="#home">Home</a>
+					<a href="#about">About Us</a>
+					<a href="#services">Services</a>
+					<a href="#process">Process</a>
+					<a href="#contact">Contact</a>
+				</div>
+			</div>
+			<div class="footer-block">
+				<div class="footer-title">Contact</div>
+				<div class="footer-links">
+					<a href="tel:+918799618432">Phone: +91 8799618432</a>
+					<a href="mailto:hrengineering2224@gmail.com">Email: hrengineering2224@gmail.com</a>
+				</div>
+			</div>
 		</div>
 	</footer>
 
 	<button class="scroll-top" type="button" aria-label="Scroll to top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑</button>
 
 	<script>
+		const currentYearElement = document.getElementById('current-year');
+		if (currentYearElement) {
+			currentYearElement.textContent = new Date().getFullYear();
+		}
+
 		const reveals = document.querySelectorAll('.reveal');
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach((entry) => {
