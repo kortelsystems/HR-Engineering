@@ -85,6 +85,13 @@
     text-decoration:none;
 }
 
+.brand-copy{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+}
+
 .company-logo{
     width:75px;
     height:75px;
@@ -108,6 +115,15 @@
     letter-spacing:1px;
     line-height:1.1;
 	font-family:'Times New Roman', Times, serif;
+}
+
+.brand-slogan{
+    color:#9a9b87;
+    font-size:13px;
+    font-weight:700;
+    line-height:1.25;
+    max-width:340px;
+    text-align:center;
 }
 		.nav-links {
 			display: flex;
@@ -892,6 +908,20 @@
 				align-items: flex-start;
 			}
 
+			.company-logo {
+				width:62px;
+				height:62px;
+			}
+
+			.brand-text {
+				font-size:26px;
+			}
+
+			.brand-slogan {
+				font-size:12px;
+				max-width:220px;
+			}
+
 			.nav-links {
 				justify-content: flex-start;
 				gap: 14px;
@@ -932,7 +962,10 @@
 		<div class="container nav">
 			<a class="brand" href="#home">
     <img src="images/logo.jpg" alt="HR Engineering Logo" class="company-logo">
-    <span class="brand-text">H R Engineering</span>
+    <span class="brand-copy">
+        <span class="brand-text">H R Engineering</span>
+        <span class="brand-slogan">From Concept To Creation: Your All-in-One Engineering Partner</span>
+    </span>
 </a>
 			<nav class="nav-links" aria-label="Primary">
 				<a href="#home">Home</a>
